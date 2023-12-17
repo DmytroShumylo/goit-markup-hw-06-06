@@ -3,6 +3,7 @@
   --white-cl: #ffffff;
   --main-font: Roboto, sans-serif;
   --main-anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --accent-cl: #404bbf;
 }
 
 /* Reset-styles */
@@ -31,6 +32,7 @@ img {
 
 button {
   cursor: pointer;
+  line-height: 0;
 }
 
 .list {
@@ -213,7 +215,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/mob-bg-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -226,7 +228,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/mob-bg-1.jpg);
+        url(../images/mob-bg-2.jpg);
     }
   }
 
@@ -928,7 +930,7 @@ body {
 }
 /* ================================= TABLET ============================== */
 @media screen and (min-width: 768px) {
-  /* body */
+
 
   .page-navigation {
     display: flex;
@@ -968,7 +970,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/tab-bg-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -981,7 +983,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/desk-bg-2.jpg);
+        url(../images/tab-bg-2.jpg);
     }
   }
 
@@ -1707,7 +1709,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/desk-bg-1.jpg");
+      url("../images/desk-bg-2.jpg");
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -1717,7 +1719,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/mob-bg-2.jpg);
+        url(../images/desk-bg-2.jpg);
     }
   }
 
