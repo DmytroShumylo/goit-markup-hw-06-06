@@ -33,6 +33,7 @@ img {
 button {
   cursor: pointer;
   line-height: 0;
+  border: none;
 }
 
 .list {
@@ -97,7 +98,7 @@ body {
 
 /* ================================= MOBILE ============================== */
 @media screen and (max-width: 767px) {
-  /* body */
+
 
   .page-navigation {
     display: flex;
@@ -195,7 +196,7 @@ body {
     color: #434455;
   }
   .active {
-    color: #404bbf;
+    color:var(--accent-cl);
   }
   .mob-menu-social {
     display: flex;
@@ -266,7 +267,7 @@ body {
 
   .button-hero:hover,
   .button-hero:focus {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .container-list {
@@ -345,11 +346,11 @@ body {
 
   .menu-item:hover,
   .menu-item:focus {
-    color: #404bbf;
+    color: var(--accent-cl);
   }
   .current {
     position: relative;
-    color: #404bbf;
+    color:var(--accent-cl);
   }
   .menu-item.current::after {
     content: "";
@@ -360,7 +361,7 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .normalize-address {
@@ -381,7 +382,7 @@ body {
   }
   .address-link:hover,
   .address-link:focus {
-    color: #404bbf;
+    color: var(--accent-cl);
   }
 
   .section-adv-item-h {
@@ -480,7 +481,7 @@ body {
   }
   .social-list-link:hover,
   .social-list-link:focus {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .portfolio-title {
@@ -741,7 +742,7 @@ body {
   .close-btn:hover,
   .close-btn:focus {
     border: none;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .close-btn:hover .modal-close,
@@ -870,7 +871,7 @@ body {
   }
 
   .checkbox:checked + .ml-checkbox > .check-on {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .checkbox:focus + .ml-checkbox > .check-on {
@@ -887,7 +888,7 @@ body {
   }
 
   .checkbox:checked + .ml-checkbox > .check-on {
-    background-color: #404bbf;
+    background-color: var(--accent-cl);
     fill: #f4f4fd;
     border: none;
   }
@@ -921,7 +922,7 @@ body {
   .submit-btn:hover,
   .submit-btn:focus {
     border: none;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .ml-checkbox {
@@ -1021,7 +1022,7 @@ body {
 
   .button-hero:hover,
   .button-hero:focus {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .container-list {
@@ -1100,11 +1101,11 @@ body {
 
   .menu-item:hover,
   .menu-item:focus {
-    color: #404bbf;
+    color:var(--accent-cl);
   }
   .current {
     position: relative;
-    color: #404bbf;
+    color: var(--accent-cl);
   }
   .menu-item.current::after {
     content: "";
@@ -1115,7 +1116,7 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .normalize-address {
@@ -1135,7 +1136,7 @@ body {
   }
   .address-link:hover,
   .address-link:focus {
-    color: #404bbf;
+    color: var(--accent-cl);
   }
 
   .section-adv-item-h {
@@ -1233,7 +1234,7 @@ body {
   }
   .social-list-link:hover,
   .social-list-link:focus {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .portfolio-title {
@@ -1480,7 +1481,7 @@ body {
   .close-btn:hover,
   .close-btn:focus {
     border: none;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .close-btn:hover .modal-close,
@@ -1609,7 +1610,7 @@ body {
   }
 
   .checkbox:checked + .ml-checkbox > .check-on {
-    background-color: #404bbf;
+    background-color: var(--accent-cl);
   }
 
   .checkbox:focus + .ml-checkbox > .check-on {
@@ -1626,7 +1627,7 @@ body {
   }
 
   .checkbox:checked + .ml-checkbox > .check-on {
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
     fill: #f4f4fd;
     border: none;
   }
@@ -1660,7 +1661,7 @@ body {
   .submit-btn:hover,
   .submit-btn:focus {
     border: none;
-    background-color: #404bbf;
+    background-color:var(--accent-cl);
   }
 
   .ml-checkbox {
